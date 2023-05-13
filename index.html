@@ -1,0 +1,97 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<style>
+		#calculator {
+			width: 300px;
+			height: 400px;
+			margin: auto;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-rows: repeat(5, 1fr);
+			grid-gap: 10px;
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+		
+		button {
+			font-size: 1.5em;
+			padding: 10px;
+			background-color: #fff;
+			border: 1px solid #ccc;
+			cursor: pointer;
+		}
+
+		#display {
+			grid-column: 1 / span 4;
+			font-size: 2em;
+			text-align: right;
+			padding: 10px;
+			background-color: #f0f0f0;
+			border: 1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<div id="calculator">
+		<input type="text" id="display" readonly>
+		<button id="clear">C</button>
+		<button id="backspace">CE</button>
+		<button id="mod">%</button>
+		<button id="divide">/</button>
+		<button id="seven">7</button>
+		<button id="eight">8</button>
+		<button id="nine">9</button>
+		<button id="multiply">*</button>
+		<button id="four">4</button>
+		<button id="five">5</button>
+		<button id="six">6</button>
+		<button id="subtract">-</button>
+		<button id="one">1</button>
+		<button id="two">2</button>
+		<button id="three">3</button>
+		<button id="add">+</button>
+		<button id="zero">0</button>
+		<button id="decimal">.</button>
+		<button id="equals">=</button>
+	</div>
+	<script src="calculator.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="display">
+			<input type="text" id="result" readonly>
+		</div>
+		<div class="buttons">
+			<button class="operator" id="clear">C</button>
+			<button class="operator" id="backspace">CE</button>
+			<button class="operator" id="mod">%</button>
+			<button class="operator" id="divide">/</button>
+			<button id="seven">7</button>
+			<button id="eight">8</button>
+			<button id="nine">9</button>
+			<button class="operator" id="multiply">*</button>
+			<button id="four">4</button>
+			<button id="five">5</button>
+			<button id="six">6</button>
+			<button class="operator" id="subtract">-</button>
+			<button id="one">1</button>
+			<button id="two">2</button>
+			<button id="three">3</button>
+			<button class="operator" id="add">+</button>
+			<button id="zero">0</button>
+			<button id="decimal">.</button>
+			<button class="operator" id="equals">=</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
